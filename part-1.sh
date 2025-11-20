@@ -78,7 +78,7 @@ echo "✅ PART 1 COMPLETE!"
 echo "==================================================================="
 echo ""
 echo "NEXT CRITICAL STEP:"
-echo "Run the command 'exec $SHELL'"
+echo '1. Run the command "exec $SHELL"'
 echo "2. Run the second setup script:"
 echo ""
 echo "    sh part-2.sh"
