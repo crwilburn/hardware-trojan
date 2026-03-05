@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_DIR="1000-images"
+IMAGE_DIR="test-images"
 RESULTS_CSV="clean-results.csv"
 
 if [ ! -f "RESULTS_CSV" ]; then
