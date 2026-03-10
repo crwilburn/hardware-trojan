@@ -3,8 +3,8 @@
 IMAGE_DIR="test-images"
 RESULTS_CSV="infected-results.csv"
 
-if [ ! -f "RESULTS_CSV" ]; then
-    echo "CPU Percent,Latency,Temperature (C)" > "RESULTS_CSV"
+if [ ! -f "$RESULTS_CSV" ]; then
+    echo "CPU Percent,Latency,Temperature (C)" > "$RESULTS_CSV"
 fi
 
 for IMAGE in "$IMAGE_DIR"/*; do
